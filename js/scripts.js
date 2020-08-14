@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $(".btn").click(function() {
     $("#programing_quiz").show();
+    $(".jumbotron").hide();
   });
   
   $("form#programing_quiz").submit(function(event) {
