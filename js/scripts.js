@@ -4,7 +4,7 @@ $(document).ready(function() {
   });
   
   $("programing_quiz").submit(function(event) {
-    const answer = parseInt($("secret_question").val());
+    const answer = parseInt($("#secret_question").val());
    
    
     if(answer === 1) {
