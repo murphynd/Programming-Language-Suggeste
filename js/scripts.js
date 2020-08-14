@@ -4,9 +4,11 @@ $(document).ready(function() {
   });
   
   $("form#programing_quiz").submit(function(event) {
+    const nameInput = $("#name").val();
     const answer = parseInt($("#question").val());
    
-   
+    $(".name").append(nameInput);
+
     if(answer === 1) {
     $("#language_1").show();
     } 
