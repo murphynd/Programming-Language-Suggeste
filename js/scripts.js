@@ -3,8 +3,8 @@ $(document).ready(function() {
     $("#programing_quiz").show();
   });
   
-  $("programing_quiz").submit(function(event) {
-    const answer = parseInt($("#secret_question").val());
+  $("form#programing_quiz").submit(function(event) {
+    const answer = parseInt($("#question").val());
    
    
     if(answer === 1) {
