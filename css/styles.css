@@ -11,6 +11,10 @@
 #language_3 {
   display: none
 }
+body{
+  border: 3px solid gray
+  padding: 5px;
+}
 .card{
   margin: 30px;
   border: 3px solid gray;
@@ -21,7 +25,7 @@
 
 .jumbotron{
   
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient( #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
