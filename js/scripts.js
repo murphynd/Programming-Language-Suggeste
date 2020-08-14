@@ -27,6 +27,6 @@ $(document).ready(function() {
     $("#language_1").hide();
     $("#language_2").hide();
     $("#language_3").hide();
-    $("#programing_quiz").show();
+    $("#programing_quiz").trigger("reset").show();
   });
 });
