@@ -5,34 +5,34 @@
 #### By _**Natalie Murphy**_
 
 ## Description
-Application for people interested in coding to decide which language they should learn first. Keep in mind that even though all languages have similarities and switching between languages and platforms is very common in both internships and jobs, applicants should still put some thought into which language they should learn.
+Web pplication for people interested in coding to decide which language they should learn.
+Take a short 5 question Quiz to find out if:
 
-Choose at least three languages that prospective learners should consider. Here are some possibilities:
+* Ruby
+* C#
+* Python
 
-Ruby
-C#
-Python
-
+are right for you.
 
 ## Setup/Installation Requirements
 
-* open index.html to view
+* open index.html to view in browser 
 
 
 ## Known Bugs
 
-
+Break it for me and let me know.
 
 ## Support and contact details
 
-If they run into any issues or have questions, ideas or concerns contact Natalie Murphy at Nataliemurphy500@gmail.com or make a contribution to the code.
+If you run into any issues or have questions, ideas or concerns contact Natalie Murphy at Nataliemurphy500@gmail.com or make a contribution to the code.
 
 ## Technologies Used
 
-HTML
-CSS
-jQuery
-Javascript
+* HTML
+* CSS
+* jQuery
+* Javascript
 
 ### License
 
