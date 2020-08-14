@@ -18,6 +18,9 @@ are right for you.
 
 * open index.html to view in browser 
 
+or 
+* https://murphynd.github.io/Programming-Language-Suggeste/
+
 
 ## Known Bugs
 
