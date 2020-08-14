@@ -14,6 +14,7 @@ $(document).ready(function() {
 
     $("#language_1").show();
     $("#programing_quiz").hide();
+    $(".btn").click(reset());
     } 
     else if (result === 2) {
 
@@ -21,6 +22,7 @@ $(document).ready(function() {
 
     $("#language_2").show();
     $("#programing_quiz").hide();
+    $(".btn").click(reset());
     } 
     else if (result === 3) {
 
