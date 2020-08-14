@@ -1,7 +1,13 @@
 #programing_quiz{
+  margin: 3px;
+  border: 3px solid gray;
+  border-radius: 4px;
+  padding: 5px;
+  background: linear-gradient( #ee7752, #e73c7e, #23a6d5);
+    background-size: 100%;
+    animation: gradient;
   display: none
 }
-
 #language_1 {
   display: none
 }
@@ -11,33 +17,15 @@
 #language_3 {
   display: none
 }
-body{
-  border: 3px solid gray
-  padding: 5px;
-}
 .card{
-  margin: 30px;
+  margin: 3px;
   border: 3px solid gray;
   border-radius: 4px;
   padding: 5px;
   width: auto;
 }
-
 .jumbotron{
-  
-  background: linear-gradient( #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+ background: linear-gradient( #ee7752, #e73c7e, #23a6d5);
+    background-size: 100%;
+    animation: gradient 5s infinite;
 }

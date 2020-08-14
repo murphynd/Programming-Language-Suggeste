@@ -6,7 +6,7 @@ $(document).ready(function() {
   $("form#programing_quiz").submit(function(event) {
     const nameInput = $("#name").val();
     const result = parseInt($("#question1").val());
-   
+  
     $(".name").append(nameInput);
 
     if(result === 1) {
