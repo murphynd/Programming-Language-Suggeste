@@ -14,19 +14,17 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1 class="display-4">What programing language is for me?</h1>
-      <p class="lead">Find out what language you should dedicate your programing career to by answering 5 simple questions about yourself! </p>
+      <h1 class="display-4 light text-white">What programing language is for me?</h1>
+      <p class="lead text-white">Find out what language you should dedicate your programing career to by answering 5 simple questions about yourself! </p>
       <p class="lead">
-        <a class="btn btn-success btn-lg" href="#" role="button">Find out Now!</a>
+        <a class="btn btn-light btn-lg" href="#" role="button">Find out Now!</a>
       </p>
     </div>
-
     <form id="programing_quiz">
       <div class="form-group">
         <label for="name">Name</label>
         <input type="name" class="form-control" id="name" placeholder="Your Name">
       </div>
-
       <div class="form-group">
         <label for=""></label>
         <select class="form-control" id="">
@@ -37,7 +35,6 @@
           <option></option>
         </select>
       </div>
-
       <div class="form-group">
         <label for="question"></label>
         <select class="form-control" id="question">
@@ -78,57 +75,59 @@
           <option></option>
         </select>
       </div>
-
       <button type="submit" class="btn btn-info">Submit</button>
     </form>
-
     <div id="survey_result"></div>
-    <div id="language_1">
-      <h2> Wow <span class="name"></span> you are totally ment for: RUBY</h2>
-        <p>Ruby is a favorite language of developers building interactive web applications. 
-          If an app involves users creating accounts, entering information, and interacting
-           with dynamic content, there's a good chance it is built with Ruby. Ruby became popular 
-           because the Rails framework, which is written with Ruby, simplified many of the common 
-           tasks associated with building web applications. It's most popular with startups and 
-           smaller companies who are looking to build their product quickly. Like C# and Java, 
-           Ruby is very similar to Python, and Ruby is a great choice at Epicodus if you're interested 
-           in Python.
+    
+      <div class="card mb-3" id="language_1" >
+        <img class="card-img-top" src="imgs/ruby.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Wow <span class="name"></span>! you are totally ment for: RUBY</h5>
+          <p class="card-text">Ruby is a favorite language of developers building interactive web applications. 
+            If an app involves users creating accounts, entering information, and interacting
+            with dynamic content, there's a good chance it is built with Ruby. Ruby became popular 
+            because the Rails framework, which is written with Ruby, simplified many of the common 
+            tasks associated with building web applications. It's most popular with startups and 
+            smaller companies who are looking to build their product quickly. Like C# and Java, 
+            Ruby is very similar to Python, and Ruby is a great choice at Epicodus if you're interested 
+            in Python.
 
-          Though each language has its niche, there is plenty of crossover.
-           For example, Rails' popularity inspired copycats in just about every
+            Though each language has its niche, there is plenty of crossover.
+            For example, Rails' popularity inspired copycats in just about every
             language, and so you'll see interactive web applications written in C#,
-             Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and
-              Laravel. Even at one company, you might find them using PHP for their 
-              marketing site, Ruby for their web application, and Java for their back-end processing. </p>
-              <footer>
-                <p>Author: <a href="https://www.epicodus.com/about"></a>Michael Kaiser-Nyman</p>
-              </footer>
-      <img src="" alt="">
+            Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and
+            Laravel. Even at one company, you might find them using PHP for their 
+            marketing site, Ruby for their web application, and Java for their back-end processing.</p>
+            <p class="card-text"><small class="text-muted">Author: <a href="https://www.epicodus.com/about">Michael Kaiser-Nyman</a></small></p>
+        </div>
     </div>
-    <div id="language_2">
-      <h2> Wow <span class="name"></span> you are totally ment for: Python</h2>
-      <p>Python is one of the most loved programming languages by developers, 
+
+    <div class= "card mb-3" id="language_2">
+      <img class="card-img-top" src="imgs/python.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Wow <span class="name"></span>! you are totally ment for: PYTHON</h5>
+        <p class="card-text">Python is one of the most loved programming languages by developers, 
         data scientists, software engineers, and even hackers because of its 
         versatility, flexibility, and object-oriented features. Many of the 
         web and mobile applications we enjoy today is because of Python’s abundant
-         libraries, various frameworks, vast collections of modules, and file extensions.
-          Not only that, Python is great for building micro-project to macro enterprise
-           web services as well as on supporting other types of programming languages.
+        libraries, various frameworks, vast collections of modules, and file extensions.
+        Not only that, Python is great for building micro-project to macro enterprise
+        web services as well as on supporting other types of programming languages.
 
         Although it’s a high-level language and can do complex tasks, Python is easy 
         to learn and has a clean syntax. Therefore, its recommendable for both beginners
-         and experienced programmers. Also, there are plenty of ways on how to learn 
-         Python; you can do self-study, enroll yourself in coding bootcamp or school 
-         or watch online tutorials. The choice is yours to make!</p>
-         <footer>
-          <p>Author: <a href="https://www.codingdojo.com/blog/why-you-should-learn-python"></a>Noemi Balog</p>
-        </footer>
-
-      <img src="" alt="">
+        and experienced programmers. Also, there are plenty of ways on how to learn 
+        Python; you can do self-study, enroll yourself in coding bootcamp or school 
+        or watch online tutorials. The choice is yours to make!</p>
+        <p class="card-text"><small class="text-muted">Author: <a href="https://www.codingdojo.com/blog/why-you-should-learn-python">Noemi Balog</a></small></p>
+      </div>
     </div>
-    <div id="language_3">
-      <h2> Wow <span class="name"></span> you are totally ment for: C# </h2>
-      <p>C# is most popular among bigger established businesses, often for 
+      
+    <div class= "card mb-3" id="language_3">
+      <img class="card-img-top" src="imgs/Csharp.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Wow <span class="name"></span>! you are totally ment for: C#</h5>
+        <p class="card-text">C# is most popular among bigger established businesses, often for 
         building internal software. Because it's been around for a long time
          and has the backing of Microsoft, it is one of the most in-demand 
          languages in the job market. C# has also been going through a bit 
@@ -138,13 +137,8 @@
         for a larger company on business software, C# is a great choice. It's also 
         very similar to Java, so if you're interested in Java development, C# is
         a great choice at Epicodus.</p>
-        <footer>
-          <p>Author: <a href="https://www.epicodus.com/about"></a>Michael Kaiser-Nyman</p>
-        </footer>
-      <img src="" alt="">
+        <p class="card-text"><small class="text-muted">Author: <a href="https://www.epicodus.com/about">Michael Kaiser-Nyman</a></small></p>
     </div>
   </div>
-
 </body>
-
 </html>
