@@ -1,9 +1,8 @@
 
 function tally(answer1, answer2, answer3, answer4, answer5) {
-  count [1] = [answer1,answer2,answer3,answer4,answer5];
-  count [2] = [answer1,answer2,answer3,answer4,answer5];
-  count [3] = [answer1,answer2,answer3,answer4,answer5];
+  count = [answer1,answer2,answer3,answer4,answer5];
   return count;
+  alert return;
 }
 
 $(document).ready(function() {
@@ -19,8 +18,30 @@ $(document).ready(function() {
     const answer4 = parseInt($("#question4").val());
     const answer5 = parseInt($("#question5").val());
     const result = tally(answer1, answer2, answer3, answer4, answer5);
-    alert(result)
 
+   
+    $(".name").append(nameInput);
+
+    if(result === 1) {
+
+
+    $("#language_1").show();
+    $("#programing_quiz").hide();
+    } 
+    else if (result === 2) {
+
+
+
+    $("#language_2").show();
+    $("#programing_quiz").hide();
+    } 
+    else if (result === 3) {
+
+
+
+    $("#language_3").show()
+    $("#programing_quiz").hide();
+    }
     event.preventDefault();
   });
 });
