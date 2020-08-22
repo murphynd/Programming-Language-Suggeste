@@ -3,7 +3,9 @@ $(document).ready(function() {
     $("#programing_quiz").show();
     $(".jumbotron").hide();
   });
-  
+  let score = [];
+  $("input:check")
+
   $("form#programing_quiz").submit(function(event) {
     const nameInput = $("#name").val();
     const result = parseInt($("#question1").val());
@@ -24,6 +26,9 @@ $(document).ready(function() {
     }
     event.preventDefault();
   });
+
+
+
   $(".btn2").click(function() {
     $("#language_1").hide();
     $("#language_2").hide();
