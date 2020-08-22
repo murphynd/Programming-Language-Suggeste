@@ -4,7 +4,15 @@ $(document).ready(function() {
     $(".jumbotron").hide();
   });
   let score = [];
-  $("input:check")
+  $("input:check[name=Ruby]:checked").each(function()){
+    score.push(parseInt($(this).val()));
+  });
+  $("input:check[name=c#]:checked").each(function()){
+    score.push(parseInt($(this).val()));
+  });
+  $("input:check[name=Python]:checked").each(function()){
+    score.push(parseInt($(this).val()));
+  });
 
   $("form#programing_quiz").submit(function(event) {
     const nameInput = $("#name").val();
