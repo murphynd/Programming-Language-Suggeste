@@ -7,41 +7,38 @@ $(document).ready(function() {
   $("form#programing_quiz").submit(function(event) {
     event.preventDefault();
     
-    let score = [];
-    $("input:check[name=c]:checked").each(function(){
-      score.push(parseInt($(this).val()));
+    var score=[]
+    $("input:check[name=skill]:checked").each(function(){
+      score.push($(this).val());
     });
-    $("input:check[name=Ruby]:checked").each(function(){
-      score.push(parseInt($(this).val()));
-    });
-    $("input:check[name=Python]:checked").each(function(){
-      score.push(parseInt($(this).val()));
-    });
-
-    const totalScore = score.reduce((a,b,c) => a + b + c, 0)
-    console.log(totalScore)
-
-      if (totalScore > num){
-      $("#language_1").show();
-      $("#programing_quiz").hide();
-      } else if (totalScore === 2) {
-        $("#language_2").show();
-        $("#programing_quiz").hide();
-      } else if (totalScore === 3) {
-        $("#language_3").show()
-        $("#programing_quiz").hide();
-      }
-      const nameInput = $("#name").val();
-      $(".name").append(nameInput);
+    console.log(score);
   });
+});
 
-    $(".btn2").click(function() {
-      $("#language_1").hide();
-      $("#language_2").hide();
-      $("#language_3").hide();
-      $("#programing_quiz").trigger("reset").show();
-    });
- });
+//     const totalScore = score.reduce((a,b,c) => a + b + c, 0)
+//     console.log(totalScore)
+
+//       if (totalScore > num){
+//       $("#language_1").show();
+//       $("#programing_quiz").hide();
+//       } else if (totalScore === 2) {
+//         $("#language_2").show();
+//         $("#programing_quiz").hide();
+//       } else if (totalScore === 3) {
+//         $("#language_3").show()
+//         $("#programing_quiz").hide();
+//       }
+//       const nameInput = $("#name").val();
+//       $(".name").append(nameInput);
+//   });
+
+//     $(".btn2").click(function() {
+//       $("#language_1").hide();
+//       $("#language_2").hide();
+//       $("#language_3").hide();
+//       $("#programing_quiz").trigger("reset").show();
+//     });
+//  });
 
 //   $("form#programing_quiz").submit(function(event) {
 //     const nameInput = $("#name").val();

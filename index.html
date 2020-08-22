@@ -1,12 +1,10 @@
-  
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-US">
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Have you ever asked yourself, what Programing language is for me?</title>
 </head>
 <body>
@@ -15,64 +13,47 @@
       <h1 class="display-4 light text-white">What programing language is for me?</h1>
       <p class="lead text-white">Find out what language you should dedicate your programing career to by answering 5 simple questions about yourself! </p>
       <p class="lead">
-        <a class="btn btn-outline-secondary" href="#" role="button">Start the Quiz</a>
+        <a class="btn btn-light" href="#" role="button">Start the Quiz</a>
       </p>
     </div>
     <form id="programing_quiz">
-      <div class="form-group text-white col-6">
-        <label for="name">Name</label>
+      <div class="form-group text-white">
         <input type="name" class="form-control" id="name" placeholder="Your Name">
       </div>
-      <div class="form-group text-white col-6">
-        <label for="question1">You have a complex task ahead, are you likely to:</label>
-        <select class="form-control" id="question1">
-          <option value="0"></option>
-          <option value="1">Draw out the problem on a whiteboard</option>
-          <option value="2">Talk to your peers and problem solve together</option>
-          <option value="3">Go to the code and start DevTooling your way through the issue</option>         
-        </select>
+      <div class="form-group text-white">
+        <h3>What does your ideal work day look like?</h3>
+        <input type="checkbox" name="skill" value="c"> Up in the morning, grab a coffee, get to work, check in with your boss and go about your daily tasks<br>
+        <input type="checkbox" name="skill" value="Ruby"> Wake up when you feel like it and put your headset on to code until your eyes give way<br>
+        <input type="checkbox" name="skill" value="Python"> Working from home but with lots of meetings inbetween to stragize with a team.<br>
+        </div>
+      <div class="form-group text-white">
+        <h3>What is the 'best' way to go about problem solving?</h3>
+        <input type="checkbox" name="skill" value="Ruby"> Look at what others have done before you<br>
+        <input type="checkbox" name="skill" value="c"> Try and fail and learn<br>
+        <input type="checkbox" name="skill" value="Python"> Spend a long time planning your move and hopefully all goes to plan<br>
       </div>
-      <div class="form-group text-white col-6">
-        <label for="question2">What does your ideal work day look like?</label>
-        <select class="form-control" id="question2">
-          <option value="0"></option>
-          <option value="1">up in the morning, grab a coffee, get to work, check in with your boss and go about your daily tasks.</option>
-          <option value="2">wake up when you feel like it and put your headset on to code until your eyes give way</option>
-          <option value="3">working from home but with lots of meetings inbetween to stragize with a team. </option>
-        </select>
+      <div class="form-group text-white">
+        <h3>what is the best operating system?</h3>
+        <input type="checkbox" name="skill" value="Python"> Mac OS X<br>
+        <input type="checkbox" name="skill" value="Ruby"> Windows<br>
+        <input type="checkbox" name="skill" value="c"> Linux<br>
       </div>
-      <div class="form-group text-white col-6">
-        <label for="question3">What is the 'best' way to go about problem solving?</label>
-        <select class="form-control" id="question3">
-          <option value="0"></option>
-          <option value="1">Look at what others have done before you</option>
-          <option value="2">Try and fail and learn</option>
-          <option value="3">spend a long time planning your move and hopefully all goes to plan</option> 
-        </select>
+      <div class="form-group text-white">
+        <h3>How do you spend your freetime?</h3>
+        <input type="checkbox" name="skill" value="Ruby"> Hanging out with friends<br>
+        <input type="checkbox" name="skill" value="Python"> Playing videogames<br>
+        <input type="checkbox" name="skill" value="c"> Coding<br>
       </div>
-      <div class="form-group text-white col-6">
-        <label for="question4">what is the best operating system?</label>
-        <select class="form-control" id="question4">
-          <option value="0"></option>
-          <option value="1">Mac OS X</option>
-          <option value="2">Windows</option>
-          <option value="3">Linus</option>
-        </select>
+      <div class="form-group text-white">
+        <h3>You have a complex task ahead, are you likely to:</h3>
+        <input type="checkbox" name="skill" value="c"> Draw out the problem on a whiteboard<br>
+        <input type="checkbox" name="skill" value="Ruby"> Talk to your peers and problem solve together<br>
+        <input type="checkbox" name="skill" value="Python"> Go to the code and start DevTooling your way through the issue<br>
       </div>
-      <div class="form-group text-white col-6">
-        <label for="question5" >How do you spend your freetime?</label>
-        <select class="form-control" id="question5">
-          <option value="0"></option>
-          <option value="1">Hanging out with friends</option>
-          <option value="2">Playing videogames</option>
-          <option value="3">coding</option>
-        </select>
-      </div>
-      <button type="submit" class="btn btn-outline-secondary">Find My Language</button>
+      <button type="submit" class="btn btn-light">Find my Language!</button>
     </form>
-    </div>
-    <!--Results-->
-    <div class="card mb-3" id="language_1" >
+     <!--Results-->
+     <div class="card mb-3" id="language_1" >
       <h1 class="card-img-top text-center">RUBY</h1>
         <div class="card-body">
           <h5 class="card-title">Wow <span class="name"></span>! you are totally ment for: RUBY</h5>
