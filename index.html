@@ -21,10 +21,19 @@
         <input type="name" class="form-control" id="name" placeholder="Your Name">
       </div>
       <div class="form-group text-white">
+        <label for="question1">You have a complex task ahead, are you likely to:</label>
+        <select class="form-control" id="question1">
+          <option value="0"></option>
+          <option value="1">Draw out the problem on a whiteboard</option>
+          <option value="2">Talk to your peers and problem solve together</option>
+          <option value="3">Go to the code and start DevTooling your way through the issue</option>         
+        </select>
+      </div>
+      <div class="form-group text-white">
         <h3>What does your ideal work day look like?</h3>
-        <input type="checkbox" name="skill" value="c"> Up in the morning, grab a coffee, get to work, check in with your boss and go about your daily tasks<br>
-        <input type="checkbox" name="skill" value="Ruby"> Wake up when you feel like it and put your headset on to code until your eyes give way<br>
-        <input type="checkbox" name="skill" value="Python"> Working from home but with lots of meetings inbetween to stragize with a team.<br>
+        <input type="checkbox" name="skill" value="3"> Up in the morning, grab a coffee, get to work, check in with your boss and go about your daily tasks<br>
+        <input type="checkbox" name="skill" value="2"> Wake up when you feel like it and put your headset on to code until your eyes give way<br>
+        <input type="checkbox" name="skill" value="1"> Working from home but with lots of meetings inbetween to stragize with a team.<br>
         </div>
       <div class="form-group text-white">
         <h3>What is the 'best' way to go about problem solving?</h3>
@@ -43,12 +52,6 @@
         <input type="checkbox" name="skill" value="Ruby"> Hanging out with friends<br>
         <input type="checkbox" name="skill" value="Python"> Playing videogames<br>
         <input type="checkbox" name="skill" value="c"> Coding<br>
-      </div>
-      <div class="form-group text-white">
-        <h3>You have a complex task ahead, are you likely to:</h3>
-        <input type="checkbox" name="skill" value="c"> Draw out the problem on a whiteboard<br>
-        <input type="checkbox" name="skill" value="Ruby"> Talk to your peers and problem solve together<br>
-        <input type="checkbox" name="skill" value="Python"> Go to the code and start DevTooling your way through the issue<br>
       </div>
       <button type="submit" class="btn btn-light">Find my Language!</button>
     </form>
